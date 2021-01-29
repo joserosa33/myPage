@@ -1,3 +1,7 @@
+import Header from "./header";
+
 export default function Layout({children}){
-    return <div>{children}</div>
-}
+    return (
+        <Header/>
+    )
+} 

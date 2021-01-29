@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    justify-content: space-between;
+    padding: 2rem 10%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.contact {
+    margin-right: 10%;
+}
